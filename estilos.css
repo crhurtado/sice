@@ -1,0 +1,103 @@
+body {
+	background-color  : #190707;
+	color             : #400020;
+	background-image  : url(imagenes/bg.gif);
+	background-repeat : no-repeat;
+	background-size:cover;
+	}
+	
+	
+h4 {
+	color			  : #000000;
+	text-shadow		  : 0px 2px 5px #555;
+	font			  : 50px Monotype Corsiva;
+	text-align		  : center;
+	margin-bottom	  : 15px;
+	margin-top		  : 20px;
+	
+}
+
+#header {
+	background-image  : url(imagenes/header_bg.gif);
+	background-repeat : no-repeat;
+	background-size   : 100% 150px;
+	width			  : 100%;
+	height			  : 150px;
+	padding			  : 0px;
+	margin			  : 0px;
+	position		  : absolute;
+	left			  : 0px;
+	top				  : 0px;
+	border-bottom	  : solid 2px #000000;	
+	}
+	
+#footer {
+	background-image  : url(imagenes/footer_bg.gif);
+	background-repeat : no-repeat;
+	background-repeat : no-repeat;
+	background-size   : 100% 50px;
+	width			  : 100%;
+	height			  : 50px;
+	padding			  : 0px;
+	margin			  : 0px;
+	position		  : absolute;
+	left			  : 0px;
+	bottom			  : 0px;
+	border-top		  : solid 2px #000000;	
+	}
+	
+#div_princ {
+	width			  : 500px;
+	height 			  : 250px;
+	margin			  : auto;
+	padding			  : 5px;
+	margin-top		  : 300px;
+	background-color  : #FCFCFC;
+	border-radius     : 5px;
+	box-shadow		  : 4px 3px 10px #F9F7ED;
+	-webkit-box-shadow: 4px 3px 10px #F9F7ED;
+	-moz-box-shadow	  : 4px 3px 10px #F9F7ED;
+	border            : 2px solid #36393D;
+	}
+	
+.cod_barras{
+	width			  : 300px;
+	height 			  : 50px;
+	margin			  : auto;
+	padding			  : 5px;
+	background-color  : #FCFCFC;
+	border-radius     : 5px;
+	border            : 1px solid #36393D;
+	font-size		  : 50px;
+	text-align		  : center;
+	}
+	
+.boton1{
+	width			  : 150px;
+	height 			  : 40px;
+	margin			  : auto;
+	padding			  : 5px;
+	background-color  : #EEEEEE;
+	border-radius     : 5px;
+	border            : 1px solid #36393D;
+	font-size		  : 18px;
+	text-align		  : center;
+}
+
+.boton1:hover{
+	background-color  : #3B0B0B;
+	color:#FFF;
+	
+}
+ 
+
+	
+.input {
+	font-family		  :"HelveticaNeue-Light","Helvetica Neue Light",
+						"Helvetica Neue",sans-serif;
+}
+
+.error {
+	color			  : #FF0000;
+	font			  : 12px Arial;
+}

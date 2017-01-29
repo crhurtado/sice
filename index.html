@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="estilos.css" >
+<title>Sistema Automatizado de Inscripción</title>
+<script type="text/javascript" src="validaciones.js"></script>
+<script language="javascript" type="text/javascript">
+	function focus_load(){
+		var f=document.form;
+		f.nick.focus();
+		}
+</script>
+
+
+</head>
+
+<body  onload="focus_load()">
+<div id="header"></div>
+
+
+	<div align="center" id="div_princ">
+    	<h4>Bienvenido(a)</h4>
+        
+        <form name="form" align="center" action="ingresar/ingresar.php" method="POST">
+				
+                Usuario: 
+				<input type="text" name="nick" maxlength="20" class="nick_pass"><br>
+				<div id="nick_error" class="error"></div>
+				</br>
+                Contraseña: 
+                <input type="password" name="pass" maxlength="20" class="nick_pass"><br>
+				<div id="pass_error" class="error"></div>
+				</br>
+				
+                <input type="button" value="Registrar" onclick="self.location.href='registro/index.html'" class="boton1" align="absmiddle" />
+				<input type="button" value="Ingresar" onclick="validar_sesion ()" class="boton1" align="absmiddle" />
+		</form>
+    	
+    </div>
+
+<div id="footer"></div>
+</body>
+</html>
